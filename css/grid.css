@@ -25,3 +25,12 @@ hr {
 .page-header {
   margin-top: 100px;
 }
+
+ul.nav {
+  font-family: 'Arvo', courier, serif;
+  line-height: 4;
+}
+
+ul.nav {
+  font-size: 12px;
+}
