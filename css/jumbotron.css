@@ -53,3 +53,8 @@ ul.nav {
     font-family: arvo,courier,sans-serif;
     font-size: 28px;
 }
+
+.homepage p {
+	font-weight: 300;
+	font-size: 21px;
+}
