@@ -40,3 +40,16 @@ ul.nav {
 .homepage {
 	text-align: center;
 }
+
+.homepage h2 {
+	color: #f1c40f;
+    text-transform: uppercase;
+    font-family: 'Arvo', courier, serif;
+}
+
+.homepage h3 {
+	color: #f1c40f;
+    text-transform: uppercase;
+    font-family: arvo,courier,sans-serif;
+    font-size: 28px;
+}
