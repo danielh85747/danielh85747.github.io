@@ -62,3 +62,9 @@ ul.nav {
 .homepage a{
 	color: #f1c40f;
 }
+
+.homepage hr {
+    border-color: #f1c40f;
+    width: 280px;
+    margin-top: 15px;
+}
