@@ -12,6 +12,10 @@ body {
 
 }
 
+.jumbotron {
+    margin-bottom: 0px;
+}
+
 .btn-lg {
 	font-size: 24px;
 	color: 
@@ -67,4 +71,22 @@ ul.nav {
     border-color: #f1c40f;
     width: 280px;
     margin-top: 15px;
+}
+
+#get-started-today {
+	background-color: #bdc3c7;
+}
+
+#get-started-today {
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#who-we-are {
+	background-color: #34495e;
+}
+
+#who-we-are {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
