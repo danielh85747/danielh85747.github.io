@@ -46,25 +46,27 @@ ul.nav {
 }
 
 .homepage h2 {
-	color: #f1c40f;
+	color: #2c3e50;
     text-transform: uppercase;
     font-family: 'Arvo', courier, serif;
 }
 
 .homepage h3 {
-	color: #f1c40f;
+	color: #2c3e50;
     text-transform: uppercase;
-    font-family: arvo,courier,sans-serif;
+    font-family: "Arvo",courier, serif;
     font-size: 28px;
 }
 
 .homepage p {
 	font-weight: 300;
 	font-size: 21px;
+	color: #ecf0f1;
+
 }
 
 .homepage a{
-	color: #f1c40f;
+	color: #2c3e50;
 }
 
 .homepage hr {
@@ -74,7 +76,7 @@ ul.nav {
 }
 
 #get-started-today {
-	background-color: #bdc3c7;
+	background-color: #f1c40f;
 }
 
 #get-started-today {
@@ -82,11 +84,31 @@ ul.nav {
     padding-bottom: 30px;
 }
 
+#get-started-today p {
+	color: #ecf0f1;
+}
+
+#get-started-today hr {
+	border-color: #2c3e50;
+}
+
 #who-we-are {
-	background-color: #34495e;
+	background-color: #2c3e50;
 }
 
 #who-we-are {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+#who-we-are p {
+	color: #ecf0f1;
+}
+
+#who-we-are h2 {
+	color: #f1c40f;
+}
+
+#who-we-are hr {
+	width: 160px;
 }
