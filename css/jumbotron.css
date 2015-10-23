@@ -127,6 +127,16 @@ footer {
     margin-bottom: 30px;
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+#back-to-top  a {
+	color: #f1c40f;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
