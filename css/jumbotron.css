@@ -21,6 +21,30 @@ a.btn.btn-success {
     margin-bottom: 0px;
 }
 
+.modal-content iframe {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.modal-dialog {
+    margin-top: -174px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: 50%;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    font-size: 30px;
+    width: 60px;
+    opacity: .5;
+}
+}
+
 .btn-lg {
 	font-size: 24px;
 	color: 
