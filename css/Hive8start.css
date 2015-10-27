@@ -85,6 +85,13 @@ ul.nav {
     text-transform: uppercase;
     font-family: "Arvo",courier, serif;
     font-size: 28px;
+
+}
+
+.row {
+	text-align: center;
+    margin-right: -600px;
+
 }
 
 .homepage p {
@@ -104,41 +111,41 @@ ul.nav {
     margin-top: 15px;
 }
 
-#get-started-today {
+#join {
 	background-color: #f1c40f;
 }
 
-#get-started-today {
+#join {
 	padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#get-started-today p {
+#join p {
 	color: #101010;
 }
 
-#get-started-today hr {
+#join hr {
 	border-color: #101010;
 }
 
-#who-we-are {
+#about-us {
 	background-color: #101010;
 }
 
-#who-we-are {
+#about-us {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#who-we-are p {
+#about-us p {
 	color: #f1c40f;
 }
 
-#who-we-are h2 {
+#about-us h2 {
 	color: #f1c40f;
 }
 
-#who-we-are hr {
+#about-us hr {
 	width: 160px;
 }
 
@@ -200,7 +207,7 @@ footer {
 		padding: 0 10px;
 	}
 
-	#get-started-today .col-md-4 {
+	#join .col-md-4 {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
