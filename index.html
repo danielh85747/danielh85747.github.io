@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Hive8-Make Your Website Today</title>
+    <title>Hive8- Start Shopping Today</title>
 
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -32,6 +32,7 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar-collapse", ".navbar-brand" data-offset="50">
+    <script type="text/javascript" src="//shop.spreadshirt.ca/shopfiles/shopclient/shopclient.nocache.js"></script>
 
       <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -56,10 +57,19 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div id="top" class="jumbotron">
+    <div id="myShop"></div>
       <div class="container">
         <h1>Welcome To Hive8!</h1>
-        <p></p>
-        <p><a class="btn btn-danger btn-lg" data-toggle="modal" data-target="#infoVideo"  role="button">See more &raquo;</a></p>
+        <p>Let's start saving on select apparel online today.</p>
+        <p><a class="btn btn-danger btn-lg" data-target="#myShop" href="http://shop.spreadshirt.ca/1092860" role="button">See more &raquo;</a></p>
+        <script>
+          var spread_shop_config = {
+            shopName: '1092860',
+            locale: 'us_CA',
+            prefix: '//shop.spreadshirt.ca',
+            baseId: 'myShop'
+          };
+        </script>
         <img src="images/hive8_logo.png" title="Hive8 logo"  alt="Hive8">
       </div>
     </div>
