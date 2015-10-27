@@ -57,20 +57,29 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div id="top" class="jumbotron">
+    <div id="myShop"></div>
       <div class="container">
         <h1>Welcome To Hive8!</h1>
-        <p>Come and take advantage of our free shipping when you purchase 30$ or more before October 30th</p>
-        <p><a class="btn btn-danger btn-lg" data-target="#myShop" href="#shoppingpage.html" role="button">See more &raquo;</a></p>
+        <p><a class="btn btn-warning btn-lg" data-target="#myShop" href="http://shop.spreadshirt.ca/1092860" role="button">See more &raquo;</a></p>
+        <script>
+          var spread_shop_config = {
+            shopName: '1092860',
+            locale: 'us_CA',
+            prefix: '//shop.spreadshirt.ca',
+            baseId: 'myShop'
+          };
+        </script>
         <img src="images/hive8_logo.png" title="Hive8 logo"  alt="Hive8">
       </div>
     </div>
 
 
-    <div id="about-us">
+    <div>
       <div class="container homepage">
         <h2>About us</h2>
+        <p><a class="btn btn-warning btn-lg" data-target="#myShop" href="index.html/#about-us" role="button">
         <hr>
-        <p>Here at Hive8, we want to provide the best ratail service possible. Feel free to take advantage of our exclusive offers starting at 6$, guaranteed to fufill your need.</p>
+        <p></p>
       </div>
     </div>
 
@@ -85,7 +94,6 @@
             <i class="fa fa-users fa-stack-1x fa-inverse"></i>
           </span>
           <h3>Join Our Hive</h3>
-          <p>Sign up to be a part of our network, filled with new releases each month. </p>
           <p><a class="btn btn-default" href="https://docs.google.com/forms/d/1Ae_tGYYn4jsJsAFu_S27WUf72_OsKehgfRlu2_ylLhA/viewform?usp=send_form" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
@@ -94,7 +102,6 @@
             <i class="fa fa-facebook-official fa-stack-1x fa-inverse"></i>
           </span>
           <h3>Facebook Hive</h3>
-          <p>Like us on Facebook and we will give you discounts that are almost as sweet as honey.</p>
           <p><a class="btn btn-default" href="https://docs.google.com/forms/d/1Ae_tGYYn4jsJsAFu_S27WUf72_OsKehgfRlu2_ylLhA/viewform?usp=send_form" role="button">View details &raquo;</a></p>
        </div>
       </div>
