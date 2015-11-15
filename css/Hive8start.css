@@ -61,6 +61,7 @@ ul.nav {
 
 .navbar-inverse .navbar-nav>li>a:hover {
   border-bottom: 3px solid;
+  padding-bottom: 12px;
 }
 
 .navbar-inverse .navbar-nav>li:first-child>a {
