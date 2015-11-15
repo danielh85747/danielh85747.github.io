@@ -59,6 +59,10 @@ ul.nav {
 	font-size: 12px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+  border-bottom: 3px solid;
+}
+
 .navbar-inverse .navbar-nav>li:first-child>a {
   color: #f1c40f;
 }
@@ -67,9 +71,9 @@ ul.nav {
   color: #f1c40f;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
-    background-color: #f8f8f8;
-}
+/*.navbar-inverse .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #101010;
+}*/
 
 img {
     margin-top: -30px;
