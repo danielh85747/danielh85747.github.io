@@ -187,6 +187,10 @@ h6, .h6 {
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
+  letter-spacing: .64em;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 #blog-page {
