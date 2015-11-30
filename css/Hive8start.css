@@ -109,11 +109,11 @@ img {
 
 }
 
-.row {
+/*.row {
 	text-align: center;
     margin-right: -600px;
 
-}
+}*/
 
 .homepage p {
 	font-weight: 300;
@@ -191,6 +191,38 @@ footer {
 
 #back-to-top  a {
 	color: #f1c40f;
+}
+
+.btn-default, .btn-default:hover, .btn-default:focus {
+	color: #f1c40f;
+	background-color: #101010;
+	border-color: #101010;
+
+}
+
+    
+.form-control {
+	/*margin-left: 100px;*/
+	color: #f1c40f;
+	background-color: #101010;
+	border-color: #101010;
+
+}
+
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	vertical-align: bottom;
+	margin-bottom: 0px;
+}
+
+#share-buttons p {
+    font-family: "Helvetica Neue", 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+	font-weight: 200;
 }
 
 /* Extra small devices (phones, less than 768px) */
