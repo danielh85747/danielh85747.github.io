@@ -225,6 +225,21 @@ footer {
 	font-weight: 200;
 }
 
+#share-button-top img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	vertical-align: bottom;
+	margin-bottom: 0px;
+}
+
+#share-button-top p {
+    font-family: "Helvetica Neue", 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+	font-weight: 200;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
