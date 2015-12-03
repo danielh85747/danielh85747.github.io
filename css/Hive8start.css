@@ -21,6 +21,10 @@ a.btn.btn-success {
     margin-bottom: 0px;
 }
 
+.jumbotron img {
+    margin-top: 30px;
+}
+
 .modal-content iframe {
     margin-left: 80px;
     margin-top: 5px;
