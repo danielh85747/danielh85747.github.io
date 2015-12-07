@@ -27,21 +27,36 @@ h6, .h6 {
 
 #post-box ol {
   list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 #post-box li {
   font-size: 16px;
-  padding: 20px;
+  padding: 12px;
+  border-bottom: 3px solid #efefef;
+
+}
+
+#post-box li:last-child {
+  border-bottom: 0;
 }
 
 #post-box h4 {
   text-align: center;
   font-family: "open Sans";
+  background-color: #efefef;
+  padding: 12px;
+  margin: 0;
 }
-
 #post-box {
-
+  padding: 0;
+  border: 3px solid #efefef;
+  border-top: 0;
+  border-radius: 3px;
+  margin-top: 30px;
 }
+
 
 .navbar-default .navbar-nav>li>a:hover {
   border-bottom: 3px solid;
