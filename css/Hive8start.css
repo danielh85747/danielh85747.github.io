@@ -25,6 +25,14 @@ a.btn.btn-success {
     margin-top: 30px;
 }
 
+#about-us a {
+	color: #f1c40f;
+}
+
+#join a {
+	color: #101010;
+}
+
 .modal-content iframe {
     margin-left: 80px;
     margin-top: 5px;
